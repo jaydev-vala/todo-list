@@ -1,0 +1,48 @@
+/* body{
+    background-color: #1abc9c;
+} */
+.addItem {
+  /* background-color: #FFC107; */
+  color: white;
+  background: #e0a8b6; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    hsl(34, 97%, 14%),
+    #000000
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    hsl(34, 97%, 14%),
+    #000000
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.addItem:hover {
+  color: white;
+  box-shadow: #d197e2;
+}
+.addItem:active {
+  transform: scale(0.98);
+}
+* {
+  box-sizing: border-box;
+}
+
+.header-color {
+  background: #000000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to bottom,
+    hsl(34, 97%, 14%),
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    hsl(34, 97%, 14%),
+    #000000
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.todo-color {
+  background-image: linear-gradient(to right, #ffffff  0%, #e6a647 100%);
+}
+.trigger:active {
+  transform: scale(0.98); 
+}
